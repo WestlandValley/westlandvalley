@@ -245,7 +245,10 @@ export const SideBarLinks = styled(motion.ul)`
         font-size: 32px;
         margin-bottom: 4rem;
         padding-left: 5.4rem;
-        
+        letter-spacing: .5px;
+        padding: 0 0 0 5.5rem;
+
+
         
     }
 
@@ -277,7 +280,6 @@ export const Links = styled(motion.li)`
         padding-left: 20px;
         border-left: 1px solid white;
         margin-left: 4px;
-        border-radius: 0 10px 10px 0;
 
         a {
             color: black;
@@ -306,9 +308,9 @@ export const Links = styled(motion.li)`
     }
 
     @media screen and (max-width: 480px){
-        font-family: nudista-web,sans-serif;
+        font-family: 'Courier New', Courier, monospace;
         font-weight: 550;
-        margin-bottom: 15px;
+        margin-bottom: 4px;
    
     }
 

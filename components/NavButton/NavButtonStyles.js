@@ -5,7 +5,7 @@ import styled from 'styled-components';
 export const Menu = styled.span`
     &:nth-child(1){
         top: ${props => props.isOpen ? '18px' : '0'};
-        transform: ${props => props.isOpen ? `rotate(45deg)` : ''};
+        transform: ${props => props.isOpen ? `rotate(135deg)` : ''};
 
     } 
 
@@ -17,7 +17,7 @@ export const Menu = styled.span`
 
     &:nth-child(3){
         top: ${({ isOpen }) => isOpen ? '18px' : '20px'};
-        transform: ${props => props.isOpen ? `rotate(136deg)` : ''};
+        transform: ${props => props.isOpen ? `rotate(-135deg)` : ''};
 
     }
     position: absolute;
@@ -30,7 +30,23 @@ export const Menu = styled.span`
     color: white;
     background: white;
     transform: rotate(0deg);
-    transition: all .5s cubic-bezier(.215,.61,.355,1);
+    transition: all .5s cubic-bezier(.215, .61, .355, 1);
+    @media screen and (max-width: 480px){
+        &:nth-child(1){
+            top: ${props => props.isOpen ? '8px' : '0'};
+            transform: ${props => props.isOpen ? `rotate(135deg)` : ''};
+
+        }
+        &:nth-child(3){
+            top: ${({ isOpen }) => isOpen ? '8px' : '20px'};
+            transform: ${props => props.isOpen ? `rotate(-135deg)` : ''};
+
+        }   
+
+    }
+
+
+    
 `
 export const NavMenu = styled.div`
     position: relative;
@@ -43,32 +59,11 @@ export const NavMenu = styled.div`
     z-index: 300;
     @media screen and (max-width: 480px){
         width: 27px;
-        ${Menu}{
-        &:nth-child(1){
-            top: ${props => props.isOpen ? '18px' : '-.4px'};
-            transform: ${props => props.isOpen ? `rotate(45deg)` : ''}};
-        &:nth-child(3){
-            top: ${({ isOpen }) => isOpen ? '18px' : '19px'};
-            transform: ${props => props.isOpen ? `rotate(136deg)` : ''};
-        }
-        
-
-    
-        }
+  
 
     }
-    &:hover ${Menu}{
-        &:nth-child(1){
-            top: ${props => props.isOpen ? '10px' : '-2px'};
-            transform: ${props => props.isOpen ? `rotate(45deg)` : ''};
-        }
 
     
-        &:nth-child(3){
-            top: ${({ isOpen }) => isOpen ? '10px' : '22px'};
-            transform: ${props => props.isOpen ? `rotate(136deg)` : ''};
-        }
-    }
 
 
 
