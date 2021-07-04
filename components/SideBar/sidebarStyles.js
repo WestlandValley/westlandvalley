@@ -17,9 +17,8 @@ export const EmailText = styled(motion.h2)`
 
 
     @media screen and (max-width: 480px){
-        position: absolute;
-        left: 10rem;
-        top: 7rem;
+        padding-left: 3rem;
+        top: 7.5rem;
         font-size: .6rem;
     }
 
@@ -29,20 +28,16 @@ export const EmailContainer = styled(motion.div)`
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 2rem;
     top: 35%;
     left: 25px;
     @media screen and (max-width: 768px){
-        top: 0;
-        left: 4%;
+
     }
 
     @media screen and (max-width: 480px){
-        top: -16%;
-        left: 10px;
-
+        top: 0;
+        left: 0;
     }
 
 `
@@ -59,8 +54,8 @@ export const EmailDivider = styled(motion.div)`
 
 export const Phone = styled(motion.li)`
     list-style: none;
-    font-size: 2rem;
-    font-family: nudista-web,sans-serif;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
     white-space: nowrap;
     letter-spacing: .5px;
     font-weight: bold;
@@ -68,6 +63,7 @@ export const Phone = styled(motion.li)`
     transition: all .2s cubic-bezier(.25,.46,.45,.94);
     cursor: default;
     color: #ccc;
+    
 
 
     &:hover{
@@ -91,8 +87,8 @@ export const Phone = styled(motion.li)`
 
     }
     @media screen and (max-width: 480px){
-        position: absolute;
-        left: 9.1rem;
+        left: 3rem;
+        padding-left: 2.5rem;
         top: 12rem;
         font-size: .9rem;
     }
@@ -119,15 +115,16 @@ export const PhoneText = styled(motion.h2)`
     }
     @media screen and (max-width: 480px){
         position: absolute;
-        left: 9.5rem;
+        left: 3rem;
+        padding-left: 2.8rem;
         top: 13.5rem;
         font-size: .6rem;
     }
 
 `
 export const Email = styled(motion.li)`
-    font-size: 2rem;
-    font-family: nudista-web,sans-serif;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
     list-style: none;
     color: #ccc;
     letter-spacing: .5px;
@@ -161,7 +158,7 @@ export const Email = styled(motion.li)`
 
     @media screen and (max-width: 480px){
         position: absolute;
-        left: 6.7rem;
+        padding-left: 3rem;
         top: 5.5rem;
         font-size: .9rem;
     }
@@ -211,14 +208,21 @@ export const SideBarMenu = styled(motion.div)`
 
 `
 export const SideRight = styled(motion.div)`
+    display: flex;
     background-color: #262628;
-    position: absolute;
-    right: 0;
-    height: 100vh;
+    position: relative;
+    height: 100%;
     width: 35vw;
     color: white;
-    @media screen and (max-width: 768px){
-        display: none !important;
+    right: -55vw;
+
+    @media screen and (max-width: 480px){
+        position: absolute;
+        left: 0;
+        height: 35%;
+        width: 100%;
+        bottom: 0;
+
     }
 `
 
@@ -243,7 +247,7 @@ export const SideBarLinks = styled(motion.ul)`
 
     @media screen and (max-width: 480px){
         font-size: 32px;
-        margin-bottom: 4rem;
+        margin-bottom: 9rem;
         padding-left: 5.4rem;
         letter-spacing: .5px;
         padding: 0 0 0 5.5rem;
@@ -310,7 +314,7 @@ export const Links = styled(motion.li)`
     @media screen and (max-width: 480px){
         font-family: 'Courier New', Courier, monospace;
         font-weight: 550;
-        margin-bottom: 4px;
+        margin-bottom: 8px;
    
     }
 

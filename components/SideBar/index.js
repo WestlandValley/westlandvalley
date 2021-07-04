@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'next/link';
 import SideBarAnimate from './sideBarAnimation';
 import { AnimatePresence } from 'framer-motion';
-import { useMediaQuery } from 'react-responsive';
 import FooterSvg from '../Footer/footersvg';
 import styled from 'styled-components';
 import { rightSideVariant, socialContainer, item, sideLeftVariant, emailContainerItem } from './sideBarAnimationVar';
@@ -11,9 +10,7 @@ import { Email, EmailContainer, EmailDivider, EmailText, Links, Phone, PhoneText
 
 
 const SideBar = ({ isOpen }) => {
-    const isTabletScreen = useMediaQuery({
-        query: '(max-device-width: 768px)'
-    });
+
     return (
         <>
             <SideBarContainer>
@@ -39,16 +36,6 @@ const SideBar = ({ isOpen }) => {
                                     <PhoneText layout variants={emailContainerItem}>The Fastest Way To Reach Us</PhoneText>
                                 </EmailContainer>
                             </SideRight>
-                            {
-                                isTabletScreen && <SideBarRightResponsive>
-                                    <EmailContainer layout variants={socialContainer}>
-                                        <Email variants={emailContainerItem}>westlandvalley@gmail.com</Email>
-                                        <EmailText layout variants={emailContainerItem}>Get In Touch With Us</EmailText>
-                                        <Phone variants={emailContainerItem}>+233 546 075 591</Phone>
-                                        <PhoneText layout variants={emailContainerItem}>The Fastest Way To Reach Us</PhoneText>
-                                    </EmailContainer>
-                                </SideBarRightResponsive>
-                            }
                         </AnimatePresence>
                     </SideBarMenu>
                 </SideBarAnimate>
@@ -76,22 +63,10 @@ const SideBarFooterSvg = styled.div`
 `
 
 
-const SideBarRightResponsive = styled.div`
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
-    height: 30vh;
-    background-color: #262628;
-    @media screen and (max-width: 480px){
-        position: absolute;
-        left: 0;
-        width: 109vw;
-    }
+
 
     
-`
+
 
 
 

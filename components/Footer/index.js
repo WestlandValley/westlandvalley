@@ -46,7 +46,7 @@ const Footer = () => {
 
 }
 const FooterSvgContainer = styled.svg`
-    display: flex;
+    display: block;
     height: 2rem;
     width: 13rem;
     position: absolute;
@@ -55,7 +55,7 @@ const FooterSvgContainer = styled.svg`
         width: 12rem;
         left: 2.5%;
         top: 5%;
-        transform: translate(50%,-50%)
+        transform: translate(50%,-50%);
     }
 
 `

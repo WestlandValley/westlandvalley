@@ -35,7 +35,7 @@ export const Menu = styled.span`
         right: -7px;
         height: 1.8px;
         &:nth-child(1){
-            top: ${props => props.isOpen ? '8px' : '-4px'};
+            top: ${props => props.isOpen ? '8px' : '-5px'};
             transform: ${props => props.isOpen ? `rotate(135deg)` : ''};
 
         }
@@ -47,7 +47,7 @@ export const Menu = styled.span`
         }
 
         &:nth-child(3){
-            top: ${({ isOpen }) => isOpen ? '8px' : '12px'};
+            top: ${({ isOpen }) => isOpen ? '8px' : '14px'};
             transform: ${props => props.isOpen ? `rotate(-135deg)` : ''};
 
         }
