@@ -99,24 +99,17 @@ export const FooterContainer = styled.div`
     background: #262628;
     overflow: hidden;
     max-width: 100vw;
-    padding: 4.5% 0;
-    min-height: 30vh;
+    padding: 4.5rem 0;
+    height: 50vh;
 
     @media screen and (max-width: 768px){
         display: flex;
         flex-direction: column;
-        min-height: 54vh;
-        padding-top: 8rem;
-        justify-content: center;
-        align-items: center;
-
-    }
-    @media screen and (max-width: 768px){
-        display: flex;
-        flex-direction: column;
-        min-height: 54vh;
+        height: 54vh;
         padding-top: -4rem;
         justify-content: center;
+    }
+    @media screen and (max-width: 480px){
     }
 
     

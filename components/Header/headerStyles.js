@@ -26,15 +26,17 @@ export const HeaderContainer = styled.div`
     flex-direction: column;
     position: relative;
     overflow: hidden;
-    height: 100vh;
+    height: 100%;
     z-index: 4;
       
 `;
 
 export const HeaderWrap = styled(motion.div)`
-    margin: auto 19rem auto 14rem;
+    margin: 11rem 19rem auto 15rem;
     max-width: 1024px;
     color: white;
+    height: 100%;
+    padding-bottom: 10rem;
 
     @media screen and (max-width: 768px){
         margin: 14rem 0 2rem 6.5rem;
@@ -42,7 +44,7 @@ export const HeaderWrap = styled(motion.div)`
 
     }
     @media screen and (max-width: 480px){
-        margin: 12rem 0 1rem 3.5rem;
+        margin: 12rem 0 0rem 3.5rem;
         width: 100%;
     }
  
