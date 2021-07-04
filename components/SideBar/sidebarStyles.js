@@ -62,7 +62,7 @@ export const Phone = styled(motion.li)`
     margin-bottom: 10px;
     transition: all .2s cubic-bezier(.25,.46,.45,.94);
     cursor: default;
-    color: #ccc;
+    color: white;
     
 
 
@@ -126,7 +126,7 @@ export const Email = styled(motion.li)`
     font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
     list-style: none;
-    color: #ccc;
+    color: white;
     letter-spacing: .5px;
     font-weight: bolder;
     white-space: nowrap;
@@ -152,7 +152,6 @@ export const Email = styled(motion.li)`
         white-space: nowrap;
         top: 5.5rem;
         font-size: 1rem;
-        color: #ccc;
 
     }
 
