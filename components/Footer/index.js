@@ -51,7 +51,7 @@ const Footer = () => {
     );
 
 }
-const FooterSvgContainer = styled.div`
+const FooterSvgContainer = styled.svg`
     display: flex;
     height: 2rem;
     width: 13rem;
