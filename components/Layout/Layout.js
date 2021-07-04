@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
 const LayoutContainer = styled.div`
     display: flex;
     flex-direction: column;
-    background: white;
+    background: #262628;
 `
 
 
