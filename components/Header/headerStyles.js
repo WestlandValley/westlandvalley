@@ -29,7 +29,7 @@ export const HeaderContainer = styled.div`
     height: 100vh;
     z-index: 4;
     @media screen and (max-width: 480px){
-      height: 95vh;
+      height: 100vh;
     }
       
 `
