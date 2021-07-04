@@ -22,9 +22,10 @@ export const NavbarContainer = styled.nav`
     top: 0;
     left: 0;
     right: 0;  
-    z-index: 2;
+    z-index: 7;
     background: transparent;
     height: 80px;
+    margin-bottom: 0;
 
 
     @media screen and (max-width: 480px){ 

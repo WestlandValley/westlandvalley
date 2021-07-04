@@ -190,7 +190,7 @@ export const SideBarContainer = styled.div`
     position: fixed;
     right: -10rem;
     top: 0;
-    z-index: 2;
+    z-index: 5;
     height: 100%;
 
 `

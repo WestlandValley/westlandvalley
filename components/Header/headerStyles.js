@@ -27,7 +27,7 @@ export const HeaderContainer = styled.div`
     position: relative;
     overflow: hidden;
     height: 100vh;
-    z-index: 1;
+    z-index: 4;
       
 `;
 

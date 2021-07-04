@@ -10,7 +10,7 @@ export const Bg = styled.div`
     width: 100%;
     height: 100%;
     background-image: linear-gradient(to top, #34414EB7, #4B134FA2);
-    z-index: 1;
+    z-index: 2;
     object-fit: cover;
 
 
@@ -21,6 +21,6 @@ export const ImageContainer = styled.video`
    width: 100%;
    height: 100%;
    object-fit: cover;
-   z-index: -1;
+   z-index: 1;
    
 `
