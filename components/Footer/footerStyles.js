@@ -105,11 +105,10 @@ export const FooterContainer = styled.div`
     @media screen and (max-width: 768px){
         display: flex;
         flex-direction: column;
-        height: 54vh;
         justify-content: center;
     }
     @media screen and (max-width: 480px){
-        height: 60vh;
+        min-height: 55vh;
     }
 
     
