@@ -38,6 +38,7 @@ export const rightSideVariant = {
             ease: [.215, .61, .355, 1],
         }
     },
+    
 
 
 }

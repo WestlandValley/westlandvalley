@@ -27,7 +27,7 @@ const Footer = () => {
                 <FooterContent>
                     <FooterLogo>
                         <FooterSvgContainer>
-                            <FooterSvg />
+                            <FooterSvg/>
                         </FooterSvgContainer>
                         <FooterRights>
                             <span>&copy;2021 Westland Valley. All Rights Reserved. </span>
@@ -44,20 +44,19 @@ const Footer = () => {
 }
 const FooterSvgContainer = styled.div`
     display: flex;
-    position: relative;
-    @media screen and (max-width: 768px){
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        right: -19px;
-        width: 12rem;
+    height: 2rem;
+    width: 20rem;
+    position: absolute;
+    z-index: 4;
+    @media screen and (min-width: 414px) and (max-width: 480px){
+        width: 10rem;
+        left: 7%;
+        top: 25%;
+        transform: translate(50%,-50%)
+    }
 
-    }
-    @media screen and (max-width: 480px){
-        z-index: 99;
-    }
 `
+
 
 
 

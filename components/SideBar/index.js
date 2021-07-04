@@ -68,7 +68,7 @@ const SideBarFooterSvg = styled.div`
         width: 11.8rem;
         left: 2.45rem;
     }
-    @media screen and (min-width: 380px) and (max-width: 480px){
+    @media screen and (max-width: 480px){
         width: 11rem;
         left: 5.2rem;
         top: 8rem;

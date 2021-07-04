@@ -7,7 +7,7 @@ export const Social = styled(motion.ul)`
     display: flex;
     position: absolute;
     margin-left: 2rem;
-    right: 5rem;
+    right: -5rem;
     top: 5.5rem;
     @media screen and (max-width: 480px){
     }
@@ -77,7 +77,7 @@ export const SocialIcons = styled(motion.li)`
 `
 export const MiddleLine = styled(motion.div)`
     position: absolute;
-    right: 0;
+    right: -9rem;
     background-color: grey;
     width: 1px;
     @media screen and (max-width: 768px){
@@ -102,7 +102,7 @@ export const FooterContainer = styled.div`
 
     @media screen and (max-width: 480px){
         height: 30vh;
-        width: 100vw;
+        width: 100%;
     }
 
     

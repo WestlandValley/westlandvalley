@@ -5,7 +5,7 @@ const Background = () => {
     return (
         <>
             <Bg/>
-            <ImageContainer loop autoPlay muted src='/header.mp4' type='video/mp4' />
+            <ImageContainer loop='loop' autoPlay='autoPlay' muted='muted' src='/header.mp4' type='video/mp4' />
         </>
 
     )

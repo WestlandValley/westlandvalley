@@ -18,15 +18,13 @@ export const IconLine = styled(motion.div)`
     
 `
 export const NavbarContainer = styled.nav`
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;  
     z-index: 7;
     background: transparent;
     height: 70px;
-    margin-top: -70px;
-
 
     @media screen and (max-width: 480px){ 
         background: #18181a;
