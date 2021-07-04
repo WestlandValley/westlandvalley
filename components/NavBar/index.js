@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import NavButton from '../NavButton';
 import SideBar from '../SideBar';
 import { NavbarContainer, NavBarItems, IconLine, NavIcon } from './navBarStyles';
-import { variants, logoVariantContainer, logoVariant, heightVariant } from './navBarAnimation';
+import { variants, logoVariantContainer, logoVariant } from './navBarAnimation';
 import { motion } from 'framer-motion';
 
 
@@ -53,10 +53,6 @@ const NavBar = () => {
         </>
     )
 }
-
-
-
-
 
 
 

@@ -1,13 +1,13 @@
 import React from 'react';
-import { Bg, ImageContainer } from './backgroundStyles';
+import { ImageContainer, Bg } from './backgroundStyles';
 
 const Background = () => {
     return (
         <>
             <Bg/>
-            <ImageContainer loop autoPlay muted src='/header.mp4' type='video/mp4'/>
+            <ImageContainer loop autoPlay muted src='/header.mp4' type='video/mp4' />
         </>
-  
+
     )
 }
 

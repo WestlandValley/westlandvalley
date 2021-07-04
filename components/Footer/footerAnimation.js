@@ -28,7 +28,12 @@ export const socialVariants = {
     },
     show: {
         opacity: 1,
-        y: 0
+        y: 0,
+        transition: {
+            duration: 1.3,
+            ease: [.6, .01, -.05, .95]
+
+        }
     },
     exit: {
         y: -50,

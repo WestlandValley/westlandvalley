@@ -21,7 +21,7 @@ export const NavbarContainer = styled.nav`
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    right: 0;  
     z-index: 2;
     background: transparent;
     height: 10vh;
