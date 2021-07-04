@@ -11,7 +11,6 @@ export const Social = styled(motion.ul)`
     top: 5.5rem;
     @media screen and (max-width: 768px){
         position: absolute;
-        right: -3.6rem;
     }
     @media screen and (max-width: 480px){
     }
@@ -103,9 +102,7 @@ export const FooterContainer = styled.div`
     height: 50vh;
 
     @media screen and (max-width: 768px){
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+
     }
     @media screen and (max-width: 480px){
         min-height: 55vh;
@@ -121,8 +118,7 @@ export const FooterContent = styled.div`
     display: flex;
     justify-content: space-between;
     @media screen and (max-width: 768px){
-        flex-direction: row;
-        justify-content: center;
+
 
     }
 
@@ -137,8 +133,7 @@ export const FooterLogo = styled.div`
     margin-right: 40rem;
     display: inline-block;
     @media screen and (max-width: 768px){
-        margin-right: 1rem;
-        margin-top: -3rem;
+
     }
 
 `
@@ -151,8 +146,7 @@ export const FooterRights = styled.div`
     min-width: 25rem;
     font-family: 'Montserrat Alternates', sans-serif;
     @media screen and (max-width: 768px){
-        margin-top: 13rem;
-        font-size: 12px;
+
 
     }
 

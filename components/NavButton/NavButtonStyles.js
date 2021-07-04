@@ -32,16 +32,24 @@ export const Menu = styled.span`
     transform: rotate(0deg);
     transition: all .5s cubic-bezier(.215, .61, .355, 1);
     @media screen and (max-width: 480px){
+        right: -7px;
         &:nth-child(1){
-            top: ${props => props.isOpen ? '8px' : '0'};
+            top: ${props => props.isOpen ? '8px' : '-4px'};
             transform: ${props => props.isOpen ? `rotate(135deg)` : ''};
 
         }
+
+        &:nth-child(2) {
+        top: 4px;
+        opacity: ${({ isOpen }) => isOpen ? '0' : '1'};
+
+        }
+
         &:nth-child(3){
-            top: ${({ isOpen }) => isOpen ? '8px' : '20px'};
+            top: ${({ isOpen }) => isOpen ? '8px' : '12px'};
             transform: ${props => props.isOpen ? `rotate(-135deg)` : ''};
 
-        }   
+        }
 
     }
 

@@ -24,8 +24,8 @@ export const NavbarContainer = styled.nav`
     right: 0;  
     z-index: 7;
     background: transparent;
-    height: 80px;
-    margin-top: -80px;
+    height: 70px;
+    margin-top: -70px;
 
 
     @media screen and (max-width: 480px){ 
@@ -39,7 +39,7 @@ export const NavBarItems = styled.div`
     display: flex;
     max-width: 100%;
     justify-content: space-between;
-    height: 80px;
+    height: 70px;
 
 `
 export const NavIcon = styled(motion.div)`

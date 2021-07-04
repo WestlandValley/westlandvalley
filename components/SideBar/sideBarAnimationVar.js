@@ -11,7 +11,7 @@ export const socialContainer = {
 
 export const item = {
     hidden: {
-        y: 55,
+        y: 20,
         opacity: 0,
 
     },
@@ -20,7 +20,7 @@ export const item = {
         y: 0,
         transition: {
             ease: [.6, .01, -.05, .95],
-            duration: 1.8,
+            duration: 1,
         }
     },
     exit: {
@@ -29,7 +29,6 @@ export const item = {
         duration: 2,
         transition: {
             ease: [.6, .01, -.05, .95],
-            duration: .3,
             staggerChildren: .55
         }
     }
@@ -59,12 +58,14 @@ export const rightSideVariant = {
 
 export const sideLeftVariant = {
     hidden: {
-        opacity: 0,
+        x: -500,
+        opacity: 0
     },
     show: {
-
+        x: 0,
         opacity: 1,
         transition: {
+            duration: .5,
             delay: 1.3,
             ease: [.215, .61, .355, 1]
 
@@ -72,10 +73,10 @@ export const sideLeftVariant = {
 
     },
     exit: {
+        opacity: 0,
         transition: {
             delay: 1
         },
-        opacity: 0
     }
 
 }
@@ -118,7 +119,7 @@ export const emailContainerItem = {
         x: 0,
         transition: {
             ease: [.6, .01, -.05, .95],
-            duration: 1.8,
+            duration: 1.2,
         }
     },
     exit: {
