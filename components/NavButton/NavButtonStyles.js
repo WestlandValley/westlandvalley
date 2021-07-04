@@ -33,6 +33,7 @@ export const Menu = styled.span`
     transition: all .5s cubic-bezier(.215, .61, .355, 1);
     @media screen and (max-width: 480px){
         right: -7px;
+        height: 1.8px;
         &:nth-child(1){
             top: ${props => props.isOpen ? '8px' : '-4px'};
             transform: ${props => props.isOpen ? `rotate(135deg)` : ''};
@@ -66,7 +67,7 @@ export const NavMenu = styled.div`
     margin-bottom: 20px;
     z-index: 300;
     @media screen and (max-width: 480px){
-        width: 27px;
+        width: 26px;
   
 
     }
