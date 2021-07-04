@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 
 const GlobalStyle = createGlobalStyle`
-  *,html,body{
+  *,html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,6 +10,10 @@ const GlobalStyle = createGlobalStyle`
   
 
 
+  }
+  body{
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
   }
     
   &::-webkit-scrollbar {

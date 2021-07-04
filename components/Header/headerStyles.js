@@ -48,7 +48,7 @@ export const HeaderWrap = styled(motion.div)`
     }
     @media screen and (max-width: 480px){
         margin: 12rem 0 0rem 3.5rem;
-        width: 100%;
+        width: 100vh;
     }
  
 `
