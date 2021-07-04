@@ -84,7 +84,7 @@ const SideBarRightResponsive = styled.div`
     width: 100vw;
     height: 30vh;
     background-color: #262628;
-    @media screen and (min-width: 380px) and (max-width: 480px){
+    @media screen and (max-width: 480px){
         position: absolute;
         left: 0;
         width: 109vw;
