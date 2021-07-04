@@ -38,7 +38,6 @@ export const NavBarItems = styled.div`
     display: flex;
     max-width: 100%;
     justify-content: space-between;
-    height: 10vh;
 
 `
 export const NavIcon = styled(motion.div)`
