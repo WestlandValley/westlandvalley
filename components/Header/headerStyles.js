@@ -28,8 +28,11 @@ export const HeaderContainer = styled.div`
     overflow: hidden;
     height: 100vh;
     z-index: 4;
+    @media screen and (max-width: 480px){
+        height: 100%;
+    }
       
-`;
+`
 
 export const HeaderWrap = styled(motion.div)`
     margin: 11rem 19rem auto 15rem;

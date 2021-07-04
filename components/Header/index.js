@@ -9,7 +9,6 @@ const Header = () => {
         <>
 
             <HeaderContainer>
-
                 <HeaderWrap variants={container} initial='hidden' animate='show'>
                     <HeaderTitle variants={item}>
                         <h1>Westland Valley: consectetur adipiscing elit </h1>
