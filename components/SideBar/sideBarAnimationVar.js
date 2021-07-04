@@ -23,15 +23,7 @@ export const item = {
             duration: 1,
         }
     },
-    exit: {
-        y: 500,
-        opacity: 0,
-        duration: 2,
-        transition: {
-            ease: [.6, .01, -.05, .95],
-            staggerChildren: .55
-        }
-    }
+
 }
 
 export const rightSideVariant = {
@@ -46,13 +38,7 @@ export const rightSideVariant = {
             ease: [.215, .61, .355, 1],
         }
     },
-    exit: {
-        width: '0vw',
-        transition: {
-            delay: .35,
-            ease: [.215, .61, .355, 1],
-        }
-    }
+
 
 }
 
@@ -72,12 +58,7 @@ export const sideLeftVariant = {
         }
 
     },
-    exit: {
-        opacity: 0,
-        transition: {
-            delay: 1
-        },
-    }
+
 
 }
 export const container = {
@@ -122,11 +103,5 @@ export const emailContainerItem = {
             duration: 1,
         }
     },
-    exit: {
-        x: 50,
-        opacity: 0,
-        transition: {
-            ease: [.6, .01, -.05, .95],
-        }
-    }
+
 }
