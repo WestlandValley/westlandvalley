@@ -29,7 +29,7 @@ export const HeaderContainer = styled.div`
     height: 100vh;
     z-index: 4;
     @media screen and (max-width: 480px){
-      min-height: -webkit-fill-available;
+      max-height: 100vh;
     }
       
 `
