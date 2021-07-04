@@ -20,9 +20,7 @@ const Footer = () => {
 
         }
     }, [scrollPosition]);
-    const isMobile = useMediaQuery({
-        query: '(max-device-width: 480px)'
-    })
+
 
 
     return (
@@ -33,11 +31,7 @@ const Footer = () => {
                         <FooterSvgContainer>
                             <FooterSvg/>
                         </FooterSvgContainer>
-                        {
-                            isMobile && <FooterContainer>
-                                <FooterSvg/>
-                            </FooterContainer>
-                        }
+
                         <FooterRights>
                             <span>&copy;2021 Westland Valley. All Rights Reserved. </span>
                         </FooterRights>
@@ -58,9 +52,9 @@ const FooterSvgContainer = styled.svg`
     position: absolute;
     z-index: 4;
     @media screen and (max-width: 480px){
-        width: 10rem;
-        left: 10%;
-        top: 25%;
+        width: 12rem;
+        left: 2.5%;
+        top: 5%;
         transform: translate(50%,-50%)
     }
 
