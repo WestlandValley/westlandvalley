@@ -45,12 +45,12 @@ const Footer = () => {
 const FooterSvgContainer = styled.div`
     display: flex;
     height: 2rem;
-    width: 20rem;
+    width: 13rem;
     position: absolute;
     z-index: 4;
-    @media screen and (min-width: 414px) and (max-width: 480px){
+    @media screen and (max-width: 480px){
         width: 10rem;
-        left: 7%;
+        left: 10%;
         top: 25%;
         transform: translate(50%,-50%)
     }

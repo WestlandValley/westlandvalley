@@ -5,11 +5,13 @@ import styled from 'styled-components';
 
 export const Social = styled(motion.ul)`
     display: flex;
+    max-width: 100%;
     position: absolute;
     margin-left: 2rem;
     right: -5rem;
     top: 5.5rem;
     @media screen and (max-width: 480px){
+        width: 100vw;
     }
 
 
@@ -116,6 +118,8 @@ export const FooterContent = styled.div`
     display: flex;
     justify-content: space-between;
     @media screen and (max-width: 480px){
+        width: 100vw;
+
     }
 
     
@@ -124,16 +128,17 @@ export const FooterContent = styled.div`
 
 `
 export const FooterLogo = styled.div`
-    width: 230px;
+    width: 100vw;
     height: 230px;
     margin-right: 40rem;
     display: inline-block;
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 480px){
 
     }
 
 `
 export const FooterRights = styled.div`
+    display: flex;
     margin-top: 5rem;
     text-transform: capitalize;
     font-size: 13px;
@@ -141,9 +146,11 @@ export const FooterRights = styled.div`
     letter-spacing: .4px;
     min-width: 25rem;
     font-family: 'Montserrat Alternates', sans-serif;
-    @media screen and (max-width: 768px){
-
-
+    @media screen and (max-width: 480px){
+        justify-content: center;
+        position: absolute;
+        bottom: -50%;
+        
     }
 
 
