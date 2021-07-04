@@ -29,7 +29,7 @@ export const HeaderContainer = styled.div`
     height: 100vh;
     z-index: 4;
     @media screen and (max-width: 480px){
-        height: 100%;
+        height: 90vh;
     }
       
 `
@@ -38,7 +38,7 @@ export const HeaderWrap = styled(motion.div)`
     margin: 11rem 19rem auto 15rem;
     max-width: 1024px;
     color: white;
-    height: 100%;
+    height: 100vh;
     padding-bottom: 10rem;
 
     @media screen and (max-width: 768px){
@@ -48,7 +48,6 @@ export const HeaderWrap = styled(motion.div)`
     }
     @media screen and (max-width: 480px){
         margin: 12rem 0 0rem 3.5rem;
-        width: 100vh;
     }
  
 `
@@ -69,7 +68,7 @@ export const HeaderTitle = styled(motion.h1)`
         margin-top: 10px;
     }
     @media screen and (max-width: 480px){
-        width: 68%;
+        width: 68ch;
     }
 
 

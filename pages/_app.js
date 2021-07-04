@@ -11,10 +11,7 @@ const GlobalStyle = createGlobalStyle`
 
 
   }
-  body{
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
-  }
+
     
   &::-webkit-scrollbar {
     width: 11px;
