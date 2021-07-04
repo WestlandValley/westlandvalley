@@ -19,6 +19,8 @@ const Footer = () => {
 
         }
     }, [scrollPosition]);
+
+
     return (
         <>
             <FooterContainer data-aos='fade-up'>

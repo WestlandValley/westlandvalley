@@ -13,8 +13,7 @@ export const Social = styled(motion.ul)`
         position: absolute;
         right: -3.6rem;
     }
-    @media screen and (max-width: 500px){
-        right: -4.1rem;
+    @media screen and (max-width: 480px){
     }
 
 
@@ -88,7 +87,7 @@ export const MiddleLine = styled(motion.div)`
     @media screen and (max-width: 768px){
         display: none !important;
     }
-    @media screen and (max-width: 500px){
+    @media screen and (max-width: 480px){
         display: none !important;
     }
 
@@ -149,10 +148,7 @@ export const FooterLogo = styled.div`
         margin-right: 1rem;
         margin-top: -3rem;
     }
-    @media screen and (max-width: 500px){
-        margin-right: -1rem;
-    }
-    
+
 `
 export const FooterRights = styled.div`
     margin-top: 5rem;
@@ -167,10 +163,6 @@ export const FooterRights = styled.div`
         font-size: 12px;
 
     }
-    @media screen and (max-width: 500px){
-        font-size: 11px;
-        position: absolute;
-        left: -20px;
-    }
+
 
 `
