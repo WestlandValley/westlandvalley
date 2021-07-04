@@ -18,8 +18,8 @@ export const IconLine = styled(motion.div)`
     
 `
 export const NavbarContainer = styled.nav`
-    position: fixed;
-    top: 80px;
+    position: sticky;
+    top: 0;
     left: 0;
     right: 0;  
     z-index: 7;
