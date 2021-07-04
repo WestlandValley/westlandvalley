@@ -9,9 +9,6 @@ export const Social = styled(motion.ul)`
     margin-left: 2rem;
     right: 5rem;
     top: 5.5rem;
-    @media screen and (max-width: 768px){
-        position: absolute;
-    }
     @media screen and (max-width: 480px){
     }
 
@@ -94,32 +91,31 @@ export const MiddleLine = styled(motion.div)`
 
 
 export const FooterContainer = styled.div`
+    display: flex; 
     position: relative;
     background: #262628;
     overflow: hidden;
-    max-width: 100vw;
+    max-width: 1350px;
     padding: 4.5rem 0;
     height: 50vh;
 
-    @media screen and (max-width: 768px){
 
-    }
     @media screen and (max-width: 480px){
-        height: 40vh;
+        height: 30vh;
+        width: 100vw;
     }
 
     
 `
 export const FooterContent = styled.div`
+    display: flex;
     position: relative;
     max-width: 1024px;
     margin: 0 auto;
     color: white;
     display: flex;
     justify-content: space-between;
-    @media screen and (max-width: 768px){
-
-
+    @media screen and (max-width: 480px){
     }
 
     

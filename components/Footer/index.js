@@ -23,7 +23,7 @@ const Footer = () => {
 
     return (
         <>
-            <FooterContainer data-aos='fade-up'>
+            <FooterContainer>
                 <FooterContent>
                     <FooterLogo>
                         <FooterSvgContainer>
@@ -34,7 +34,7 @@ const Footer = () => {
                         </FooterRights>
                     </FooterLogo>
                     <MiddleLine layout variants={variants} hidden='hidden' animate={scrollPosition > 360 ? 'show' : 'hidden'} />
-                    <SocialIconsPack scrollPosition={scrollPosition} />
+                    <SocialIconsPack scrollPosition={scrollPosition}/>
                 </FooterContent>
             </FooterContainer>
         </>
@@ -43,6 +43,8 @@ const Footer = () => {
 
 }
 const FooterSvgContainer = styled.div`
+    display: flex;
+    position: relative;
     @media screen and (max-width: 768px){
         position: relative;
         display: flex;
@@ -50,6 +52,10 @@ const FooterSvgContainer = styled.div`
         align-items: center;
         right: -19px;
         width: 12rem;
+
+    }
+    @media screen and (max-width: 480px){
+        z-index: 99;
     }
 `
 

@@ -66,7 +66,7 @@ export const sideLeftVariant = {
         opacity: 1,
         transition: {
             duration: .5,
-            delay: 1.3,
+            delay: .8,
             ease: [.215, .61, .355, 1]
 
         }
@@ -94,7 +94,7 @@ export const container = {
         transition: {
             ease: [.215, .61, .355, 1],
             delay: .16,
-            duration: 1,
+            duration: .8,
 
         }
     },
@@ -119,7 +119,7 @@ export const emailContainerItem = {
         x: 0,
         transition: {
             ease: [.6, .01, -.05, .95],
-            duration: 1.2,
+            duration: 1,
         }
     },
     exit: {
