@@ -4,6 +4,7 @@ import FooterSvg from './footersvg';
 import SocialIconsPack from './socialIconsPack';
 import { variants } from './footerAnimation';
 import styled from 'styled-components';
+import { useMediaQuery } from 'react-responsive';
 
 
 const Footer = () => {
@@ -19,6 +20,9 @@ const Footer = () => {
 
         }
     }, [scrollPosition]);
+    const isMobile = useMediaQuery({
+        query: '(max-device-width: 480px)'
+    })
 
 
     return (
@@ -29,6 +33,11 @@ const Footer = () => {
                         <FooterSvgContainer>
                             <FooterSvg/>
                         </FooterSvgContainer>
+                        {
+                            isMobile && <FooterContainer>
+                                <FooterSvg/>
+                            </FooterContainer>
+                        }
                         <FooterRights>
                             <span>&copy;2021 Westland Valley. All Rights Reserved. </span>
                         </FooterRights>

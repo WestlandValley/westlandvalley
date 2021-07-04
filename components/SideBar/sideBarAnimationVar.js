@@ -3,7 +3,7 @@ export const socialContainer = {
         transition: {
             ease: [.6, .01, -.05, .95],
             duration: .35,
-            staggerChildren: .25,
+            staggerChildren: .15,
             delayChildren: .6
         }
     }
@@ -20,6 +20,7 @@ export const item = {
         y: 0,
         transition: {
             ease: [.6, .01, -.05, .95],
+            staggerChildren: .15,
             duration: 1,
         }
     },

@@ -7,14 +7,14 @@ export const variants = {
     }
 }
 export const socialcontainer = {
-    show: {
-        transition: {
-            staggerChildren: 0.3
-        }
-    },
     hidden: {
         transition: {
-            staggerChildren: 0.1
+            staggerChildren: 0.12
+        }
+    },
+    show: {
+        transition: {
+            staggerChildren: .12
         }
     },
 
@@ -30,13 +30,13 @@ export const socialVariants = {
         opacity: 1,
         y: 0,
         transition: {
-            duration: 1.3,
+            duration: 1.2,
             ease: [.6, .01, -.05, .95]
 
         }
     },
     exit: {
-        y: -50,
+        y: -10,
         opacity: 0,
 
 
