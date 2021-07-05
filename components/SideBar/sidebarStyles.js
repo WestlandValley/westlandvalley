@@ -263,10 +263,10 @@ export const SideBarLinks = styled(motion.ul)`
 export const Links = styled(motion.li)`
     
     display: inline-block;
-    font-weight: bolder;
+    font-weight: 100;
     cursor: pointer;
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Raleway', sans-serif;
     transition: all .15s cubic-bezier(.25,.46,.45,.94);
 
     
@@ -277,14 +277,12 @@ export const Links = styled(motion.li)`
 
     
     &:hover{
-        background: white;
         transition: all .25s cubic-bezier(.25,.46,.45,.94);
         padding-left: 20px;
-        border-left: 1px solid white;
         margin-left: 4px;
 
         a {
-            color: black;
+            color: white;
         }
         
     }
