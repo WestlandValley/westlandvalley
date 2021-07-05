@@ -308,8 +308,8 @@ export const Links = styled(motion.li)`
     }
 
     @media screen and (max-width: 480px){
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: 550;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 100;
         margin-bottom: 8px;
    
     }
