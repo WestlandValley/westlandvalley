@@ -116,7 +116,7 @@ export const PhoneText = styled(motion.h2)`
     @media screen and (max-width: 480px){
         position: absolute;
         left: 3rem;
-        padding-left: 2.8rem;
+        padding-left: 2.7rem;
         top: 13.5rem;
         font-size: .6rem;
     }
