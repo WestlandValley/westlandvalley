@@ -231,11 +231,12 @@ export const SideBarLinks = styled(motion.ul)`
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat( auto-fit, minmax(120px 1fr));
-    font-size: 4.5rem;
+    font-size: 3.7rem;
     list-style: none;
     white-space: nowrap;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding: 0 0 0 120px;
+    line-height: 1.38;
     transition: all .4s cubic-bezier(.25,.46,.45,.94);
     @media screen and (max-width: 768px){
         font-size: 3rem;
@@ -262,10 +263,10 @@ export const SideBarLinks = styled(motion.ul)`
 export const Links = styled(motion.li)`
     
     display: inline-block;
-    font-weight: bold;
+    font-weight: bolder;
     cursor: pointer;
     text-decoration: none;
-    font-family: Impact, Haettenschweiler, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     transition: all .15s cubic-bezier(.25,.46,.45,.94);
 
     
