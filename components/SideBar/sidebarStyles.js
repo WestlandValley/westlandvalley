@@ -240,16 +240,14 @@ export const SideBarLinks = styled(motion.ul)`
     @media screen and (max-width: 768px){
         font-size: 3rem;
         padding-left: 40px;
-        margin-bottom: 8rem;
         
     }
 
     @media screen and (max-width: 480px){
         font-size: 32px;
-        margin-bottom: 9rem;
         padding-left: 5.4rem;
         letter-spacing: .5px;
-        padding: 0 0 0 5.5rem;
+        padding: 0 0 10rem 5.5rem;
 
 
         
