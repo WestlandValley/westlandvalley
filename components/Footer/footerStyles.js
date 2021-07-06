@@ -15,6 +15,9 @@ export const Social = styled(motion.ul)`
         height: 100%;
         top: 8rem;
     }
+    @media screen and (max-width: 380px){
+        right: -3.8rem;
+    }
 
 
 `
@@ -153,6 +156,9 @@ export const FooterRights = styled.div`
         position: absolute;
         bottom: -30%;
         
+    }
+    @media screen and (max-width: 480px){
+        left: -15px;
     }
 
 

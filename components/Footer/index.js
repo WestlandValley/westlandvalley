@@ -57,6 +57,9 @@ const FooterSvgContainer = styled.svg`
         top: 5%;
         transform: translate(50%,-50%);
     }
+    @media screen and (max-width: 380px){
+        left: -.3rem;
+    }
 
 `
 
