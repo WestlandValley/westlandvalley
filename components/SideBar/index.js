@@ -1,4 +1,3 @@
-import React from 'react'
 import Link from 'next/link';
 import SideBarAnimate from './sideBarAnimation';
 import { AnimatePresence } from 'framer-motion';

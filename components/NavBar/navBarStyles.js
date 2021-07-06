@@ -3,11 +3,11 @@ import { motion } from 'framer-motion';
 
 
 export const IconLine = styled(motion.div)`
-    height: 1px;
+    height: .5px;
     top: 4.5rem;
     background: white;
     position: absolute;
-    width: 6.8rem;
+    width: 5.8rem;
     left: 0;
 
     @media screen and (max-width: 500px){
@@ -41,6 +41,7 @@ export const NavBarItems = styled.div`
 
 `
 export const NavIcon = styled(motion.div)`
+    display: flex;
     position: relative;
     color: white;
     left: 30px;

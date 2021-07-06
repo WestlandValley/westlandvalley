@@ -1,12 +1,11 @@
-/* eslint-disable react-hooks/rules-of-hooks */
 import React, { useState, useEffect } from 'react';
 import NavButton from '../NavButton';
 import SideBar from '../SideBar';
 import { NavbarContainer, NavBarItems, IconLine, NavIcon } from './navBarStyles';
 import { variants, logoVariantContainer, logoVariant } from './navBarAnimation';
 import { motion } from 'framer-motion';
-
-
+import styled from 'styled-components';
+import NavLogo from './navLogoSvg';
 
 const NavBar = () => {
 
@@ -40,8 +39,8 @@ const NavBar = () => {
             <SideBar isOpen={isOpen} />
             <NavbarContainer>
                 <NavBarItems >
-                    <NavIcon variants={logoVariantContainer} initial='hidden' animate='show'>
-                        <motion.h1 variants={logoVariant}>LOGO</motion.h1>
+                    <NavIcon layout variants={logoVariantContainer} initial='hidden' animate='show'>
+                        <SvgAlpha layout variants={logoVariant}><NavLogo/></SvgAlpha>
                     </NavIcon>
                     <IconLine layout variants={variants} initial='hidden' animate={scrollPosition > 50 ? 'show' : 'hidden'} />
                     <NavButton layout isOpen={isOpen} toggleOpen={toggleOpen} />
@@ -53,6 +52,18 @@ const NavBar = () => {
         </>
     )
 }
+const SvgAlpha = styled(motion.svg)`
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    @media screen and (max-width: 480px){
+        height: 30px;
+        width: 30px;
+        left: -9px;
+        
+    }
+
+`
 
 
 

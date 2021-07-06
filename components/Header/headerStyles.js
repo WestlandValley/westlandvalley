@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 
 export const ButtonWrap = styled(motion.div)`
     display: flex;
-    border-bottom: 1.5px solid white;
     width: fit-content;
     justify-content: center;
     align-items: center;
@@ -15,7 +14,7 @@ export const ButtonWrap = styled(motion.div)`
 export const Arrow = styled(FiArrowRight)`
     font-size: 20px;
     margin-left:4px;
-    margin-bottom: 3px;
+    margin-bottom: 3.9px;
     transition: all .25s cubic-bezier(.215,.61,.355,1);
 
 `
@@ -90,8 +89,8 @@ export const HeaderIntro = styled(motion.p)`
     margin-bottom: 6rem;
     @media screen and (max-width: 768px){
         font-size: 20px;
-        margin-top: 5rem;
-        margin-bottom: 3rem;
+        margin-top: 6rem;
+        margin-bottom: 4rem;
     }
     @media screen and (max-width: 480px){
         font-size: 19px;

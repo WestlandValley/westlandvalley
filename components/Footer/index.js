@@ -3,9 +3,8 @@ import { FooterContainer, FooterContent, FooterLogo, FooterRights, MiddleLine, }
 import FooterSvg from './footersvg';
 import SocialIconsPack from './socialIconsPack';
 import { variants } from './footerAnimation';
-import styled from 'styled-components';
-import { useMediaQuery } from 'react-responsive';
-
+import styled from 'styled-components'
+import WvFooterLogo from './footerLogo';
 
 const Footer = () => {
     const [scrollPosition, setScrollPosition] = useState(
@@ -29,15 +28,14 @@ const Footer = () => {
                 <FooterContent>
                     <FooterLogo>
                         <FooterSvgContainer>
-                            <FooterSvg/>
+                                <WvFooterLogo/>
                         </FooterSvgContainer>
-
                         <FooterRights>
                             <span>&copy;2021 Westland Valley. All Rights Reserved. </span>
                         </FooterRights>
                     </FooterLogo>
                     <MiddleLine layout variants={variants} hidden='hidden' animate={scrollPosition > 360 ? 'show' : 'hidden'} />
-                    <SocialIconsPack scrollPosition={scrollPosition}/>
+                    <SocialIconsPack scrollPosition={scrollPosition} />
                 </FooterContent>
             </FooterContainer>
         </>
@@ -45,20 +43,25 @@ const Footer = () => {
     );
 
 }
+
+
+
+
 const FooterSvgContainer = styled.svg`
     display: block;
-    height: 2rem;
-    width: 13rem;
+    height: 7rem;
+    width: 12rem;
     position: absolute;
     z-index: 4;
+    top: 1rem;
     @media screen and (max-width: 480px){
-        width: 12rem;
-        left: 2.5%;
+        width: 9.5rem;
+        left: 10%;
         top: 5%;
         transform: translate(50%,-50%);
     }
     @media screen and (max-width: 380px){
-        left: -.3rem;
+        left: 2rem;
     }
 
 `

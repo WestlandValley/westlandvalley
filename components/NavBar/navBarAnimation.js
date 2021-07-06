@@ -10,7 +10,7 @@ export const variants = {
 export const logoVariant = {
     hidden: {
         opacity: 0,
-        x: -40,
+        x: -70,
         transition: {
             ease: [.6, .01, -.05, .95],
             staggerChildren: 1

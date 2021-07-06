@@ -9,7 +9,7 @@ export const Social = styled(motion.ul)`
     position: absolute;
     margin-left: 2rem;
     right: -5rem;
-    top: 5.5rem;
+    top: 7rem;
     @media screen and (max-width: 480px){
         width: 100vw;
         height: 100%;
@@ -106,7 +106,6 @@ export const FooterContainer = styled.div`
     padding: 4.5rem 0;
     height: 50vh;
 
-
     @media screen and (max-width: 480px){
         height: 40vh;
         width: 100%;
@@ -144,7 +143,7 @@ export const FooterLogo = styled.div`
 `
 export const FooterRights = styled.div`
     display: flex;
-    margin-top: 5rem;
+    margin-top: 11rem;
     text-transform: capitalize;
     font-size: 13px;
     color: hsla(0,0%,74.1%,.4);
