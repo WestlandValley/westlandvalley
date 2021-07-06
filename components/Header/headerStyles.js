@@ -80,7 +80,7 @@ export const HeaderIntro = styled(motion.p)`
     font-size: 2rem;
     color: white;
     font-family: 'Raleway', sans-serif;
-    width: 67vw;
+    width: max(100%, 67rem);
     line-height: 1.6;
     font-weight: lighter;
     letter-spacing:  .3px;
@@ -90,12 +90,11 @@ export const HeaderIntro = styled(motion.p)`
     @media screen and (max-width: 768px){
         font-size: 20px;
         margin-top: 5rem;
-        width: 50ch;
         margin-bottom: 3rem;
     }
     @media screen and (max-width: 480px){
         font-size: 19px;
-        width: 28ch;
+        width: min(70%, 50rem)
     }
 
 
