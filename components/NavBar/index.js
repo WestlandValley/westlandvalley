@@ -6,6 +6,7 @@ import { variants, logoVariantContainer, logoVariant } from './navBarAnimation';
 import { motion } from 'framer-motion';
 import styled from 'styled-components';
 import NavLogo from './navLogoSvg';
+import Link from 'next/link';
 
 const NavBar = () => {
 
@@ -39,7 +40,7 @@ const NavBar = () => {
             <SideBar isOpen={isOpen} />
             <NavbarContainer>
                 <NavBarItems >
-                    <NavIcon layout variants={logoVariantContainer} initial='hidden' animate='show'>
+                    <NavIcon variants={logoVariantContainer} initial='hidden' animate='show'>
                         <SvgAlpha layout variants={logoVariant}><NavLogo/></SvgAlpha>
                     </NavIcon>
                     <IconLine layout variants={variants} initial='hidden' animate={scrollPosition > 50 ? 'show' : 'hidden'} />
@@ -52,7 +53,9 @@ const NavBar = () => {
         </>
     )
 }
-const SvgAlpha = styled(motion.svg)`
+
+
+const SvgAlpha = styled(motion.div)`
     height: 40px;
     width: 40px;
     position: absolute;
@@ -60,7 +63,7 @@ const SvgAlpha = styled(motion.svg)`
         height: 30px;
         width: 30px;
         left: -9px;
-        
+
     }
 
 `
