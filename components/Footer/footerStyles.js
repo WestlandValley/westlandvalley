@@ -157,7 +157,7 @@ export const FooterRights = styled.div`
         bottom: -30%;
         
     }
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 380px){
         left: -15px;
     }
 
