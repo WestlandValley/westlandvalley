@@ -29,7 +29,7 @@ export const HeaderContainer = styled.div`
     height: 100vh;
     z-index: 4;
     @media screen and (max-width: 480px){
-        height: 60%;
+        margin-top: -2.5rem;
     }
       
 `
@@ -68,6 +68,7 @@ export const HeaderTitle = styled(motion.h1)`
     }
     @media screen and (max-width: 480px){
         width: 68ch;
+        font-size: 8.5px
     }
 
 
@@ -94,7 +95,8 @@ export const HeaderIntro = styled(motion.p)`
     }
     @media screen and (max-width: 480px){
         font-size: 19px;
-        width: min(70%, 50rem)
+        width: min(80%, 100rem);
+
     }
 
 
