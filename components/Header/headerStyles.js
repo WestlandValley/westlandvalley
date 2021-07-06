@@ -82,7 +82,7 @@ export const HeaderIntro = styled(motion.p)`
     font-family: 'Raleway', sans-serif;
     width: 67vw;
     line-height: 1.6;
-    font-weight: bold;
+    font-weight: lighter;
     letter-spacing:  .3px;
     text-transform: none;
     margin-top: 6rem;

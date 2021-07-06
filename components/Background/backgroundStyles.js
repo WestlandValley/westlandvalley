@@ -28,3 +28,8 @@ export const ImageContainer = styled.video`
    z-index: 1;
    
 `
+
+/*background: #11998e; 
+background: -webkit - linear - gradient(to right, #38ef7d, #11998e);  
+background: linear - gradient(to right, #38ef7d, #11998e); 
+*/
