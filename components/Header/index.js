@@ -17,7 +17,7 @@ const Header = () => {
                         <h1>Westland Valley: A Digital Agent For Your Business. Think Tech, Choose Us.</h1>
                     </HeaderTitle>
                     <HeaderIntro variants={item}>
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</h3>
+                        <h3>Improving lives by challenging ourselves to make Africa better. It means fighing doubt and uncertainties to show that there are problems worth solving</h3>
                     </HeaderIntro>
                     <ButtonWrap variants={item}>
                         <Button>

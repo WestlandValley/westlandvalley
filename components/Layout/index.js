@@ -6,11 +6,11 @@ import { LayoutContainer } from './layoutStyles';
 const Layout = ({ children }) => {
     const [loaded, setLoaded] = useState(false);
     useEffect(() => {
-        const loadHandler = () => setLoaded(!loaded)
+        const loadHandler = () => setLoaded(true)
         window.addEventListener('load', loadHandler)
         return () => window.removeEventListener('load', loadHandler)
 
-    }, [loaded])
+    }, [])
     return (
         <>
             {
