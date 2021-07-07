@@ -20,6 +20,7 @@ export const Arrow = styled(FiArrowRight)`
 `
 
 export const HeaderContainer = styled.div`
+    opacity: 1;
     display: flex;
     max-width: 1440px;
     flex-direction: column;

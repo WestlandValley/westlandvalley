@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 import styled from 'styled-components';
 import NavLogo from './navLogoSvg';
 import Link from 'next/link';
+import Router from 'next/router'
 
 const NavBar = () => {
 
@@ -40,7 +41,7 @@ const NavBar = () => {
             <SideBar isOpen={isOpen} />
             <NavbarContainer>
                 <NavBarItems >
-                    <NavIcon variants={logoVariantContainer} initial='hidden' animate='show'>
+                    <NavIcon variants={logoVariantContainer} initial='hidden' animate='show' onClick={() => Router.push('/')}>
                         <SvgAlpha layout variants={logoVariant}><NavLogo/></SvgAlpha>
                     </NavIcon>
                     <IconLine layout variants={variants} initial='hidden' animate={scrollPosition > 50 ? 'show' : 'hidden'} />

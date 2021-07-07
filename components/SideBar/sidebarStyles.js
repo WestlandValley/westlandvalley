@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 
 export const EmailText = styled(motion.h2)`
-    font-size: 16px;
+    font-size: 13px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ccc;
     font-weight: lighter;
@@ -54,11 +54,11 @@ export const EmailDivider = styled(motion.div)`
 
 export const Phone = styled(motion.li)`
     list-style: none;
-    font-size: 1.5rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
     white-space: nowrap;
     letter-spacing: .5px;
-    font-weight: bold;
+    font-weight: 100;
     margin-bottom: 10px;
     transition: all .2s cubic-bezier(.25,.46,.45,.94);
     cursor: default;
@@ -102,7 +102,7 @@ export const Phone = styled(motion.li)`
 `
 
 export const PhoneText = styled(motion.h2)`
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ccc;
     font-weight: lighter;
@@ -123,12 +123,12 @@ export const PhoneText = styled(motion.h2)`
 
 `
 export const Email = styled(motion.li)`
-    font-size: 1.5rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
     list-style: none;
     color: white;
     letter-spacing: .5px;
-    font-weight: bolder;
+    font-weight: 100;
     white-space: nowrap;
     cursor:default ;
     margin-bottom: 10px;
