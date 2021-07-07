@@ -68,12 +68,12 @@ export const Phone = styled(motion.li)`
 
     &:hover{
         background: #9032CF9F;
-        background: linear-gradient(to bottom right, #E1DCE4B9 0%, #5FB9CFC4 100%);
+        background: linear-gradient(to bottom right, #B75EFFAF 13%, #DBBB52C4 100%);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
         transition: all .9s cubic-bezier(.25,.46,.45,.94);
-        transform: scale(1.05);
+        transform: scale(2);
 
 
  
@@ -136,7 +136,7 @@ export const Email = styled(motion.li)`
 
     &:hover{
         background: #9032CF9F;
-        background: linear-gradient(to bottom right, #E1DCE4B9 0%, #5FB9CFC4 100%);
+        background: linear-gradient(to bottom right, #B75EFFAF 13%, #DBBB52C4 100%);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
