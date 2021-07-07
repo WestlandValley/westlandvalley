@@ -17,7 +17,7 @@ export const Bg = styled.div`
     z-index: 2;
     object-fit: cover;
     @media screen and (max-width: 480px){
-
+        background-image: linear-gradient(to left, #20002CB9, #441555BE);
     }
 
 
