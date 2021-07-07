@@ -11,7 +11,7 @@ const Header = () => {
             <HeaderContainer>
                 <HeaderWrap variants={container} initial='hidden' animate='show'>
                     <HeaderTitle variants={item}>
-                        <h1>Westland Valley: consectetur adipiscing elit </h1>
+                        <h1>Westland Valley: A Digital Agent For Your Business. Think Tech, Choose Us.</h1>
                     </HeaderTitle>
                     <HeaderIntro variants={item}>
                         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</h3>

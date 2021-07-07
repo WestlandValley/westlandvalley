@@ -2,9 +2,8 @@ import Link from 'next/link';
 import SideBarAnimate from './sideBarAnimation';
 import { AnimatePresence } from 'framer-motion';
 import FooterSvg from '../Footer/footersvg';
-import styled from 'styled-components';
 import { rightSideVariant, socialContainer, item, sideLeftVariant, emailContainerItem } from './sideBarAnimationVar';
-import { Email, EmailContainer, EmailDivider, EmailText, Links, Phone, PhoneText, SideBarContainer, SideBarLinks, SideBarMenu, SideLeft, SideRight } from './sidebarStyles';
+import { Email, EmailContainer, EmailDivider, EmailText, Links, Phone, PhoneText, SideBarContainer, SideBarLinks, SideBarMenu, SideLeft, SideRight, SideBarFooterSvg } from './sidebarStyles';
 
 
 
@@ -44,22 +43,7 @@ const SideBar = ({ isOpen }) => {
         </>
     )
 }
-const SideBarFooterSvg = styled.div`
-    height: 1rem;
-    width: 12.4rem;
-    position: absolute;
-    top: 5rem;
-    left: 7rem;
-    @media screen and (max-width: 768px){
-        width: 11.8rem;
-        left: 2.45rem;
-    }
-    @media screen and (max-width: 480px){
-        width: 11rem;
-        left: 5.2rem;
-        top: 8rem;
-    }
-`
+
 
 
 

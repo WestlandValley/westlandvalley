@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { FooterContainer, FooterContent, FooterLogo, FooterRights, MiddleLine, } from './footerStyles';
-import FooterSvg from './footersvg';
+import { FooterContainer, FooterContent, FooterLogo, FooterRights, MiddleLine,FooterSvgContainer } from './footerStyles';
 import SocialIconsPack from './socialIconsPack';
 import { variants } from './footerAnimation';
-import styled from 'styled-components'
 import WvFooterLogo from './footerLogo';
 
 const Footer = () => {
@@ -47,24 +45,7 @@ const Footer = () => {
 
 
 
-const FooterSvgContainer = styled.svg`
-    display: block;
-    height: 7rem;
-    width: 12rem;
-    position: absolute;
-    z-index: 4;
-    top: 1rem;
-    @media screen and (max-width: 480px){
-        width: 9.5rem;
-        left: 10%;
-        top: 5%;
-        transform: translate(50%,-50%);
-    }
-    @media screen and (max-width: 380px){
-        left: 2rem;
-    }
 
-`
 
 
 

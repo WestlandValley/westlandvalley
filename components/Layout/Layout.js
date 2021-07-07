@@ -4,6 +4,7 @@ import NavBar from '../NavBar';
 import Footer from '../Footer';
 import Background from '../Background';
 const Layout = ({ children }) => {
+
     return (
         <>
             

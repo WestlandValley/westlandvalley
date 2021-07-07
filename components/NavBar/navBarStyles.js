@@ -47,3 +47,15 @@ export const NavIcon = styled(motion.div)`
     left: 30px;
     top: 20px;
 `
+export const SvgAlpha = styled(motion.div)`
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    @media screen and (max-width: 480px){
+        height: 30px;
+        width: 30px;
+        left: -9px;
+
+    }
+
+`

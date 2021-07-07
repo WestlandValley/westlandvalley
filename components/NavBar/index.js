@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import NavButton from '../NavButton';
 import SideBar from '../SideBar';
-import { NavbarContainer, NavBarItems, IconLine, NavIcon } from './navBarStyles';
+import { NavbarContainer, NavBarItems, IconLine, NavIcon,SvgAlpha } from './navBarStyles';
 import { variants, logoVariantContainer, logoVariant } from './navBarAnimation';
-import { motion } from 'framer-motion';
-import styled from 'styled-components';
 import NavLogo from './navLogoSvg';
-import Link from 'next/link';
 import Router from 'next/router'
 
 const NavBar = () => {
@@ -31,11 +28,11 @@ const NavBar = () => {
     };
 
 
-    const [mounted, setMounted] = useState(false);
+    /*const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
         setMounted(true);
-    }, []);
+    }, []);*/
     return (
         <>
             <SideBar isOpen={isOpen} />
@@ -56,18 +53,7 @@ const NavBar = () => {
 }
 
 
-const SvgAlpha = styled(motion.div)`
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    @media screen and (max-width: 480px){
-        height: 30px;
-        width: 30px;
-        left: -9px;
 
-    }
-
-`
 
 
 
