@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
 
                 <LayoutContainer>
                     <NavBar />
-                    <Background />
+                    <Background loaded={loaded}/>
                     {children}
                     <Footer />
                 </LayoutContainer>
