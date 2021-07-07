@@ -19,7 +19,7 @@ const SideBar = ({ isOpen }) => {
                             <FooterSvg />
                         </SideBarFooterSvg>
                         <SideBarLinks variants={socialContainer} initial='hidden' animate='show' exit='exit'>
-                            <Links variants={item}><Link href='http://instagram.com'>Home</Link></Links>
+                            <Links variants={item}><Link href=''>Home</Link></Links>
                             <Links variants={item}><Link href=''>Services</Link></Links>
                             <Links variants={item}><Link href=''>Team</Link></Links>
                             <Links variants={item}><Link href=''>Our Work</Link></Links>
