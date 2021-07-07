@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    visibility: visible !important;
+    visibility: visible;
     opacity: 1;
 
 
