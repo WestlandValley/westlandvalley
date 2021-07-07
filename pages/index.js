@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/logoiconfav.png" />
 
       </Head>
-      <Layout>
+      <Layout style='visibility: hidden;'>
         <Header/>
       </Layout>
       

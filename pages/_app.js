@@ -9,6 +9,9 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
 
   }
+  body {
+    visibility: visible;
+  }
 
     
   &::-webkit-scrollbar {
