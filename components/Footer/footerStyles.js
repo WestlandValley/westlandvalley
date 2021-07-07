@@ -22,9 +22,10 @@ export const Social = styled(motion.ul)`
 
 `
 export const SocialIcons = styled(motion.li)`
-    display: inline-block;
+    display: flex;
     list-style: none;
     margin-right: 3rem;
+    flex-direction: column;
     width: 24px;
     height: 24px;
     z-index: 1;
@@ -54,7 +55,13 @@ export const SocialIcons = styled(motion.li)`
     &:hover :nth-child(4){
         svg{
             fill: #1DA1F2
-;
+
+        }
+    }
+    &:hover :nth-child(5){
+        svg{
+            fill: black;
+
         }
     }
 
@@ -77,6 +84,11 @@ export const SocialIcons = styled(motion.li)`
 
     svg{
         fill: grey;
+    }
+    @media screen and (max-width: 480px){
+        justify-content: center;
+        left: -13px;
+        margin-right: 2rem;
     }
 
 
