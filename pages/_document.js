@@ -49,7 +49,7 @@ class MyDocument extends Document {
                     <link rel="preconnect" href="https://fonts.googleapis.com"/>
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true'/>
                     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
-                    <style>{`html { visibility: hidden; opacity: 0; }`}</style>
+                    <style>{`html { visibility: hidden }`}</style>
 
 
                 </Head>
