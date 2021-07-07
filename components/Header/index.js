@@ -1,10 +1,13 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import { HeaderContainer, HeaderWrap, HeaderTitle, HeaderIntro, ButtonWrap, Button, Arrow } from './headerStyles';
 import { container, item } from './headerAnimation';
 
 
 
+
 const Header = () => {
+
+    
     return (
         <>
 
