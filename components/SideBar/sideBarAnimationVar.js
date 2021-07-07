@@ -76,8 +76,7 @@ export const container = {
         width: '',
         transition: {
             ease: [.215, .61, .355, 1],
-            delay: .16,
-            duration: .6,
+            duration: .8,
 
         }
     },

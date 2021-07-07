@@ -200,9 +200,7 @@ export const SideBarMenu = styled(motion.div)`
     height: 100vh;
     background: #29292b;
     transition: all .9s cubic-bezier(.25,.46,.45,.94);
-    @media screen and (max-width: 500px){
-        
-    }
+
 
 
 `
