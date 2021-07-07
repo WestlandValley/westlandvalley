@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Header from '../components/Header';
-import Layout from '../components/Layout/Layout';
+import Layout from '../components/Layout';
 
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/logoiconfav.png" />
 
       </Head>
-      <Layout style='visibility: hidden;'>
+      <Layout>
         <Header/>
       </Layout>
       

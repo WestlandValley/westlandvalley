@@ -7,11 +7,12 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    visibility: visible;
+
 
   }
-  body {
-    visibility: visible;
-  }
+  
+
 
     
   &::-webkit-scrollbar {

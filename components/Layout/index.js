@@ -1,10 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
 import NavBar from '../NavBar';
 import Footer from '../Footer';
 import Background from '../Background';
+import { LayoutContainer } from './layoutStyles';
 const Layout = ({ children }) => {
-
     return (
         <>
             
@@ -21,11 +20,6 @@ const Layout = ({ children }) => {
     )
 }
 
-const LayoutContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-    background: #262628;
-`
 
 
 
