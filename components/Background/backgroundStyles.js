@@ -9,25 +9,20 @@ export const Bg = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to top, #34414EB7, #4B134FA2);
+    filter: brightness(20%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: radial-gradient(circle, #20002CC7, #441555D2);
     z-index: 2;
     object-fit: cover;
     @media screen and (max-width: 480px){
-        background-image: linear-gradient(to top, #34414E69, #4B134F63);
 
     }
 
 
 `
-export const ImageContainer = styled.video`
-   position: absolute;
-   filter: brightness(10%);
-   width: 100%;
-   height: 100%;
-   object-fit: cover;
-   z-index: 1;
-   
-`
+
 
 /*background: #11998e; 
 background: -webkit - linear - gradient(to right, #38ef7d, #11998e);  

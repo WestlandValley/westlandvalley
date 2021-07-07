@@ -46,7 +46,7 @@ export const HeaderWrap = styled(motion.div)`
 
     }
     @media screen and (max-width: 480px){
-        margin: 12rem 0 0rem 3.5rem;
+        margin: 14rem 0 0rem 3.5rem;
     }
  
 `
@@ -57,18 +57,16 @@ export const HeaderTitle = styled(motion.h1)`
     margin-bottom: -25px;
     text-transform: capitalize;
     font-size: 8px;
-    max-width: 800px;
+    width: max(100%, 100rem);
     line-height: 1.4;
     letter-spacing: .9px;
     font-family: nudista-web,sans-serif;
 
-    @media screen and (max-width: 768px){
-        width: 100%;
-        margin-top: 10px;
-    }
+
     @media screen and (max-width: 480px){
-        width: 68ch;
-        font-size: 8.5px
+        width:  min(80%, 100rem);
+        font-size: 8.5px;
+        padding-right: 16px;
     }
 
 
@@ -96,6 +94,7 @@ export const HeaderIntro = styled(motion.p)`
     @media screen and (max-width: 480px){
         font-size: 19px;
         width: min(80%, 100rem);
+        padding-right: 16px;
 
     }
 
