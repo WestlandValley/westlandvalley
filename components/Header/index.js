@@ -1,4 +1,3 @@
-import React, {useEffect, useState} from 'react';
 import { HeaderContainer, HeaderWrap, HeaderTitle, HeaderIntro, ButtonWrap, Button, Arrow } from './headerStyles';
 import { container, item } from './headerAnimation';
 
@@ -10,6 +9,7 @@ const Header = () => {
     
     return (
         <>
+        
 
             <HeaderContainer>
                 <HeaderWrap variants={container} initial='hidden' animate='show'>

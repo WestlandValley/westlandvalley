@@ -1,4 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
+import React, { useEffect, useState } from 'react';
+
 
 
 const GlobalStyle = createGlobalStyle`
@@ -40,12 +42,23 @@ const GlobalStyle = createGlobalStyle`
 `
 
 function MyApp({ Component, pageProps }) {
+  const [loaded, setLoaded] = useState(false);
+  useEffect(() => {
+    if (document.readyState !== 'loading') {
+      setLoaded(true)
+    }
+
+
+  }, []);
 
 
   return (
     <>
       <GlobalStyle />
-      <Component {...pageProps} />
+      {
+        loaded &&
+        <Component {...pageProps} />
+      }
 
 
 
