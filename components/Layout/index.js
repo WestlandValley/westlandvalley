@@ -7,11 +7,11 @@ const Layout = ({ children }) => {
     const [loaded, setLoaded] = useState(false);
     useEffect(() => {
         if (document.readyState !== 'loading'){
-            setLoaded(!loaded)
+            setLoaded(true)
         }
 
 
-    },[loaded])
+    },[])
     return (
         <>
             {
