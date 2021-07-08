@@ -29,8 +29,6 @@ export const HeaderContainer = styled.div`
     height: 100vh;
     z-index: 4;
     @media screen and (max-width: 480px){
-        margin-top: -2.5rem;
-        height: 70vh;
     }
       
 `
