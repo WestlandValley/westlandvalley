@@ -11,11 +11,13 @@ export const socialContainer = {
 
 export const item = {
     hidden: {
-        y: 20,
+        scale: 1.2,
+        y: 45,
         opacity: 0,
 
     },
     show: {
+        scale: 1,
         opacity: 1,
         y: 0,
         transition: {
