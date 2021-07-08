@@ -120,7 +120,7 @@ export const FooterContainer = styled.div`
 
     @media screen and (max-width: 480px){
         width: 100%;
-        max-height: 36vh;
+        height: 36vh;
     }
     @media screen and (max-width: 480px)and (max-height: 750px){
         height: 40vh;
@@ -185,7 +185,7 @@ export const FooterRights = styled.div`
     @media screen and (max-width: 480px){
         justify-content: center;
         position: absolute;
-        bottom: -50%;
+        bottom: -40%;
 
         
     }
