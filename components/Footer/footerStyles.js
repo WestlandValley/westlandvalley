@@ -120,10 +120,12 @@ export const FooterContainer = styled.div`
     height: 50vh;
     visibility: visible !important;
     opacity: 1;
+    
 
     @media screen and (max-width: 480px){
         width: 100%;
         padding: 0;
+        top: -1rem;
     }
     @media screen and (max-height: 750px){
         height: 40vh;

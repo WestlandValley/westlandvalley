@@ -212,12 +212,13 @@ export const SideRight = styled(motion.div)`
     width: 35vw;
     color: white;
     right: -55vw;
+    z-index: 5;
 
     @media screen and (max-width: 480px){
         position: absolute;
         left: 0;
-        height: 35%;
-        width: 100%;
+        height: 70vw;
+        width: 100vw;
         bottom: 0;
 
     }
