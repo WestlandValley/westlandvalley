@@ -30,7 +30,7 @@ export const HeaderContainer = styled.div`
     z-index: 4;
     @media screen and (max-width: 480px){
         margin-top: -2.5rem;
-        height: 100vh;
+        height: 70vh;
     }
       
 `
@@ -51,6 +51,7 @@ export const HeaderWrap = styled(motion.div)`
     
     @media screen and (max-width: 480px) and (max-height: 750px){
         margin-top: 10rem;
+        padding-bottom: 4.5rem;
     }
 
  
