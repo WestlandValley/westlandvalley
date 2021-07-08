@@ -190,8 +190,9 @@ export const FooterRights = styled.div`
     @media screen and (max-width: 480px){
         justify-content: center;
         position: absolute;
-        bottom: 0;
+        bottom: 3px;
         margin-top:0;
+
 
         
     }
