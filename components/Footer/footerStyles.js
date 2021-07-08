@@ -13,7 +13,7 @@ export const Social = styled(motion.ul)`
     @media screen and (max-width: 480px){
         width: 100vw;
         height: 100%;
-        top: 4rem;
+        top: 7rem;
     }
     @media screen and (max-width: 380px){
         right: -3.8rem;
@@ -166,7 +166,6 @@ export const FooterSvgContainer = styled.svg`
 `
 export const FooterLogo = styled.div`
     width: 100vw;
-    height: 230px;
     margin-right: 40rem;
     display: inline-block;
     @media screen and (max-width: 480px){
