@@ -9,17 +9,13 @@ export const Bg = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    filter: brightness(20%);
+    filter: brightness(40%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-image: radial-gradient(circle, #20002CC7, #441555D2);
+    background-image: linear-gradient(to right,#000000,#8D44AD);
     z-index: 2;
     object-fit: cover;
-    @media screen and (max-width: 480px){
-        background-image: linear-gradient(to right, #8121A3F1, #161218F3);
-    }
-
 
 `
 
