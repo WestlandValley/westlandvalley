@@ -122,7 +122,7 @@ export const FooterContainer = styled.div`
         width: 100%;
         height: 36vh;
     }
-    @media screen and (max-width: 480px)and (max-height: 750px){
+    @media screen and (max-height: 750px){
         height: 40vh;
     }
 
@@ -138,7 +138,7 @@ export const FooterContent = styled.div`
     justify-content: space-between;
     @media screen and (max-width: 480px){
         width: 100vw;
-
+ 
     }
 
     
