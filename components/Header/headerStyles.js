@@ -26,9 +26,10 @@ export const HeaderContainer = styled.div`
     flex-direction: column;
     position: relative;
     overflow: hidden;
-    height: 100vh;
+    height: 100%;
     z-index: 4;
     @media screen and (max-width: 480px){
+        height: 90vh;
     }
       
 `

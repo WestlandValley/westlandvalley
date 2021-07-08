@@ -32,7 +32,7 @@ const Footer = () => {
                             <span>&copy;2021 Westland Valley. All Rights Reserved. </span>
                         </FooterRights>
                     </FooterLogo>
-                    <MiddleLine layout variants={variants} hidden='hidden' animate={scrollPosition > 360 ? 'show' : 'hidden'} />
+                    <MiddleLine layout variants={variants} hidden='hidden' animate={scrollPosition > 340 ? 'show' : 'hidden'} />
                     <SocialIconsPack scrollPosition={scrollPosition} />
                 </FooterContent>
             </FooterContainer>

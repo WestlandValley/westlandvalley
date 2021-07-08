@@ -5,15 +5,16 @@ import styled from 'styled-components';
 
 export const Social = styled(motion.ul)`
     display: flex;
+    flex-direction: row;
     max-width: 100%;
     position: absolute;
     margin-left: 2rem;
     right: -5rem;
     top: 7rem;
     @media screen and (max-width: 480px){
-        width: 100vw;
-        height: 100%;
-        top: 7rem;
+        width: 100%;
+        align-items: center;
+        bottom: 0;
     }
     @media screen and (max-width: 380px){
         right: -3.8rem;
@@ -117,10 +118,12 @@ export const FooterContainer = styled.div`
     max-width: 1350px;
     padding: 4.5rem 0;
     height: 50vh;
+    visibility: visible !important;
+    opacity: 1;
 
     @media screen and (max-width: 480px){
         width: 100%;
-        height: 36vh;
+        padding: 0;
     }
     @media screen and (max-height: 750px){
         height: 40vh;
@@ -147,16 +150,16 @@ export const FooterContent = styled.div`
 
 `
 export const FooterSvgContainer = styled.svg`
-    display: block;
-    height: 7rem;
+    display: flex;
+    flex-direction: column;
     width: 12rem;
-    position: absolute;
+    position: relative;
     z-index: 4;
     top: 1rem;
     @media screen and (max-width: 480px){
         width: 9.5rem;
-        left: 10%;
-        top: 5%;
+        left: 30%;
+        top: 38%;
         transform: translate(50%,-50%);
     }
     @media screen and (max-width: 380px){
@@ -175,9 +178,9 @@ export const FooterLogo = styled.div`
 `
 export const FooterRights = styled.div`
     display: flex;
-    margin-top: 11rem;
     text-transform: capitalize;
     font-size: 13px;
+    margin-top: 2rem;
     color: hsla(0,0%,74.1%,.4);
     letter-spacing: .4px;
     min-width: 25rem;
@@ -185,7 +188,8 @@ export const FooterRights = styled.div`
     @media screen and (max-width: 480px){
         justify-content: center;
         position: absolute;
-        bottom: -40%;
+        bottom: 0;
+        margin-top:0;
 
         
     }
