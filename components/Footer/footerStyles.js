@@ -13,7 +13,7 @@ export const Social = styled(motion.ul)`
     @media screen and (max-width: 480px){
         width: 100vw;
         height: 100%;
-        top: 8rem;
+        top: 4rem;
     }
     @media screen and (max-width: 380px){
         right: -3.8rem;
@@ -120,7 +120,7 @@ export const FooterContainer = styled.div`
 
     @media screen and (max-width: 480px){
         width: 100%;
-        height: 36vh;
+        max-height: 36vh;
     }
     @media screen and (max-width: 480px)and (max-height: 750px){
         height: 40vh;
@@ -186,7 +186,8 @@ export const FooterRights = styled.div`
     @media screen and (max-width: 480px){
         justify-content: center;
         position: absolute;
-        bottom: -30%;
+        bottom: -50%;
+
         
     }
     @media screen and (max-width: 380px){
